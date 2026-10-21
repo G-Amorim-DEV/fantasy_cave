@@ -1,0 +1,2 @@
+# Somente o necessário para jogar com teclado e mouse
+pygame>=2.5,<3

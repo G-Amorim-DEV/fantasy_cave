@@ -1,0 +1,9 @@
+# ===== Obrigatória (teclado + mouse) =====
+pygame>=2.5,<3
+
+# ===== Opcional: controle por gestos com a câmera =====
+# MediaPipe 0.10.21 funciona com Python 3.9 a 3.12 e usa a API mp.solutions.hands.
+# Ele exige numpy<2, por isso o OpenCV fica limitado abaixo da 4.12.
+# Se a instalação falhar, instale só o pygame (veja o README).
+mediapipe==0.10.21
+opencv-contrib-python>=4.8,<4.12
