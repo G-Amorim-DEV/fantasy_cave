@@ -4,6 +4,18 @@ Jogo 2D em **Python + Pygame** para a atividade de Computação Gráfica e Reali
 Você controla um explorador numa caverna fantástica: **quebre rochas** para abrir caminho, **colete todos os cristais** e
 **encontre a saída**. Dá para jogar com **teclado**, **mouse** e, opcionalmente, **gestos de mão** pela câmera (OpenCV + MediaPipe).
 
+## 🎬 Demonstração do Jogo
+
+<div align="center">
+  <video src="src/video/Fantasy_Cave_Demonstracao.mp4" controls="controls" width="100%" style="max-height: 500px;">
+    Seu navegador ou leitor de Markdown não suporta a reprodução direta da tag de vídeo.
+  </video>
+</div>
+
+> 📺 **Opções para assistir ao vídeo:**
+> - ☁️ **Assistir Online no Google Drive:** [Clique aqui para assistir no Google Drive](https://drive.google.com/file/d/1xG84rShU72X_s6_zJCmc-3BQDrPgB4Uz/view?usp=drive_link)
+> - 📁 **Arquivo no Repositório:** [`src/video/Fantasy_Cave_Demonstracao.mp4`](src/video/Fantasy_Cave_Demonstracao.mp4)
+
 ## Estrutura
 
 ```
@@ -22,6 +34,7 @@ fantasy_cave/
 │   ├── renderer.py         # desenho da caverna, iluminação, efeitos
 │   ├── ui.py               # menus, botões, partículas
 │   ├── audio.py            # sons sintetizados (opcional)
+│   ├── video/              # vídeo de demonstração do jogo
 │   └── game.py             # loop principal e estados
 └── tests/test_game_logic.py
 ```
